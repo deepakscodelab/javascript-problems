@@ -39,10 +39,25 @@
 
 /// #############  #########################################
 
-const person = { name: "Deepak", age: 29 };
+// const person = { name: "Deepak", age: 29 };
 
-for(const item in person){
-  console.log(item)
+// for(const item in person){
+//   console.log(item)
+// }
+
+//
+
+// let a = 10;
+// console.log(a);
+
+// a = 10;
+// console.log(a);
+
+// a = 10;
+// console.log(a);
+
+function test() {
+  console.log(a);
+  a = 5;
 }
-
-// 
+test();
